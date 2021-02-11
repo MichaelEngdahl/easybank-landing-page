@@ -68,6 +68,7 @@ a:hover {
 .hide-for-desktop {
   //hide for desktop viewport widths
   @include breakpoint-up(large) {
+    //display: block;
     display: none;
   }
 }
