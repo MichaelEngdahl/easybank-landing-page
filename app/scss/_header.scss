@@ -17,11 +17,11 @@
   .overlay {
     opacity: 0;
     position: fixed;
-    top: 3.75rem;
+    top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background: linear-gradient($darkBlue, transparent);
+    background-image: linear-gradient($darkBlue, transparent);
   }
 
   nav {
@@ -46,7 +46,7 @@
       height: 0.125rem;
       background-color: $darkBlue;
       transform-origin: 3px 1px;
-      transition: all 200ms ease-in-out;
+      transition: all 300ms ease-in-out;
       &:not(:last-child) {
         margin-bottom: 5px;
       }
@@ -75,7 +75,7 @@
     a {
       position: relative;
       font-size: $font-sm;
-      color: $grayisBlue;
+      color: $grayishBlue;
       transition: color 300ms ease-in-out;
 
       &:not(:last-child) {
